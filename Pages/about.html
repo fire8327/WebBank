@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assets/CSS/output.css">
+    <title>О нас</title>
+</head>
+<body class="flex flex-col min-h-screen bg-[#1A1A1A]">
+    <header class="grid-container py-6 md:py-8 xl:py-12 relative w-full">
+        <div class="flex items-center justify-between py-3 px-8 rounded-full bg-[#1C1C1C] text-white z-[5] border border-[#262626] text-xs md:text-sm xl:text-lg">
+            <a href="/" class="flex items-center gap-1">
+                <img src="../Assets/Images/header/logo.png" alt="">
+                <span class="font-semibold text-xl">WebBanK</span>
+            </a>
+            <nav class="flex items-center gap-6 max-lg:absolute max-lg:flex-col max-lg:w-[calc(100%-40px)] max-sm:w-[calc(100%-30px)] max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:z-[5] max-lg:py-4 max-lg:rounded-2xl max-lg:bg-[#1C1C1C] max-lg:border max-lg:border-[#262626] max-lg:transition-all max-lg:duration-500 max-lg:top-0 max-lg:-translate-y-full" id="menuList">
+                <a href="/">Главная</a>
+                <a href="career.html">Карьера</a>
+                <a class="px-4 py-2 border border-[#26262683] rounded-full bg-[url(../../Assets/Images/header/link.png)]" href="about.html">О нас</a>
+                <a href="security.html">Безопасность</a>
+                <div class="flex items-center gap-5 lg:hidden">
+                    <a href="/">Регистрация</a>
+                    <a href="/" class="py-3 px-7 rounded-full bg-[#CAFF33] text-black">Логин</a>
+                </div>
+            </nav>
+            <div class="flex items-center gap-5 max-lg:hidden">
+                <a href="/">Регистрация</a>
+                <a href="/" class="py-3 px-7 rounded-full bg-[#CAFF33] text-black">Логин</a>
+            </div>
+            <button class="py-3 px-4 rounded-full bg-[#CAFF33] lg:hidden" id="menuToggler">
+                <img src="../Assets/Images/header/menu.png" alt="">
+            </button>
+        </div>
+        <img src="../Assets/Images/header/topBlock.png" alt="" class="col-span-full absolute top-0 left-0">
+    </header>
+
+    <main class="grid-container gap-y-14 md:gap-y-28 xl:gap-y-36 grow">
+        <div class="flex p-3.5 md:p-10 xl:p-12 rounded-xl relative lg:justify-end bg-[#1C1C1C] max-lg:flex-col">
+            <img src="../Assets/Images/hero/abstract.png" alt="" class="absolute top-0 right-0 z-[0]">
+            <img src="../Assets/Images/about/hero.png" alt="" class="rounded-[20px] relative z-[1]">
+            <div class="lg:absolute lg:top-[39px] lg:left-[39px] xl:top-[47px] xl:left-[47px] p-6 md:p-14 xl:p-20 flex flex-col gap-3.5 md:gap-5 xl:gap-6 bg-[#1A1A1A] max-lg:rounded-[20px] max-lg:-mt-6 lg:w-1/2 lg:rounded-l-[20px] lg:rounded-br-[60px] xl:rounded-br-[80px] z-[2]">
+                <div class="flex flex-col text-white">
+                    <p class="text-base md:text-lg xl:text-xl font-medium leading-[150%]">Добро пожаловать в WebBank</p>  
+                    <p class="text-3xl md:text-5xl xl:text-6xl font-medium leading-[130%]">Где дело сочетается с <span class="text-[#CAFF33]">совершенством!</span></p>
+                </div>
+                <p class="text-sm md:text-base xl:text-lg leading-[150%] text-[#B3B3B3]">Мы в WebBank считаем, что банковское дело должно быть чем-то большим, чем просто операции. Это должен быть опыт, который помогает частным лицам и предприятиям процветать и достигать своих финансовых целей. Являясь надежным финансовым учреждением, мы стремимся предоставлять исключительные банковские услуги, превосходящие все ожидания. Уделяя особое внимание инновациям, индивидуальным решениям и непоколебимой честности, мы стремимся предоставить нашим уважаемым клиентам наилучшие банковские услуги. Присоединяйтесь к нам в этом увлекательном путешествии и откройте для себя новый уровень банковского мастерства.</p>   
+            </div>   
+        </div>
+        <div class="flex flex-col gap-10 md:gap-16 xl:gap-20 max-lg:text-center">
+            <div class="flex flex-col gap-2 md:gap-2.5 xl:gap-3 max-lg:items-center">
+                <p class="text-2xl md:text-4xl xl:text-5xl font-medium leading-[150%] text-[#CAFF33]">Миссия и Виденье</p>
+                <p class="text-xs md:text-sm xl:text-lg font-light text-[#B3B3B3] leading-[150%]">Мы стремимся стать ведущей силой в отрасли, основанной на инновациях, добросовестности и инклюзивности, создавая более светлое финансовое будущее для частных лиц и компаний, сохраняя при этом твердую приверженность удовлетворению потребностей клиентов и развитию сообщества</p>
+            </div>
+            <div class="flex items-center max-lg:flex-col gap-7 md:gap-10 xl:gap-12">
+                <div class="rounded-t-[50px] lg:rounded-b-[20px] pt-5 px-5 lg:pt-16 lg:px-16 relative bg-[#1C1C1C] overflow-hidden border border-[#262626] lg:w-2/5">
+                    <img src="../Assets/Images/about/abstract.png" alt="" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full z-[0]">
+                    <img src="../Assets/Images/about/mission1.png" alt="" class="rounded-t-[50px] relative z-[1]">
+                    <div class="absolute max-lg:bottom-0 max-lg:left-0 max-lg:w-full max-lg:h-px lg:right-0 lg:top-1/2 lg:-translate-y-1/2 lg:h-1/2 lg:w-px bg-[#CAFF33] z-[2]"></div>
+                </div>
+                <div class="flex flex-col gap-2 md:gap-2.5 xl:gap-3.5 lg:w-3/5">
+                    <p class="text-white font-medium text-2xl md:text-3xl xl:text-4xl">Миссия</p>  
+                    <p class="text-sm md:text-base xl:text-lg font-light leading-[150%] text-[#B3B3B3]">Миссия WebBank заключается в том, чтобы помочь нашим клиентам достичь финансового успеха. Мы стремимся предоставлять инновационные банковские решения, отвечающие их уникальным потребностям. Благодаря персонализированному обслуживанию, квалифицированному руководству и передовым технологиям мы стремимся строить прочные и долговременные отношения с нашими клиентами. Наша миссия - быть для них надежным партнером, помогая им ориентироваться в финансовом мире и воплощать свои мечты.</p>
+                </div>  
+            </div>
+            <div class="flex items-center max-lg:flex-col gap-7 md:gap-10 xl:gap-12 lg:-mt-20 xl:-mt-40">
+                <div class="rounded-t-[50px] lg:rounded-b-[20px] pt-5 px-5 lg:pt-16 lg:px-16 relative bg-[#1C1C1C] overflow-hidden border border-[#262626] lg:w-2/5">
+                    <img src="../Assets/Images/about/abstract.png" alt="" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full z-[0]">
+                    <img src="../Assets/Images/about/mission2.png" alt="" class="rounded-t-[50px] relative z-[1]">
+                    <div class="absolute max-lg:bottom-0 max-lg:left-0 max-lg:w-full max-lg:h-px lg:left-0 lg:top-1/2 lg:-translate-y-1/2 lg:h-1/2 lg:w-px bg-[#CAFF33] z-[2]"></div>
+                </div>
+                <div class="flex flex-col gap-2 md:gap-2.5 xl:gap-3.5 lg:w-3/5 lg:order-first">
+                    <p class="text-white font-medium text-2xl md:text-3xl xl:text-4xl">Виденье</p>  
+                    <p class="text-sm md:text-base xl:text-lg font-light leading-[150%] text-[#B3B3B3]">Наше видение в WebBank заключается в том, чтобы переосмыслить банковское дело, создав для наших клиентов единый и персонализированный сервис. Мы видим будущее, в котором банковское дело будет доступным, прозрачным и адаптированным к индивидуальным предпочтениям. Благодаря постоянным инновациям и сотрудничеству мы стремимся быть в авангарде отрасли, устанавливая новые стандарты банковского обслуживания, ориентированного на клиента. Наше видение заключается в том, чтобы быть предпочтительным финансовым учреждением, известным своим неизменным стремлением к совершенству, доверию и удовлетворенности клиентов.</p>
+                </div>  
+            </div>
+        </div>
+        <div class="flex flex-col gap-10 md:gap-16 xl:gap-20 max-lg:text-center">
+            <div class="flex flex-col gap-2 md:gap-2.5 xl:gap-3 max-lg:items-center">
+                <p class="text-2xl md:text-4xl xl:text-5xl font-medium leading-[150%] text-[#CAFF33]">Пресс-релизы</p>
+                <p class="text-xs md:text-sm xl:text-lg font-light text-[#B3B3B3] leading-[150%]">Будьте в курсе последних событий и интересных разработок WebBank с помощью наших пресс-релизов.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 xl:gap-7">
+                <div class="flex flex-col gap-7 md:gap-10 xl:gap-12 rounded-t-[40px] rounded-b-[16px] bg-[#1C1C1C] border border-[#262626] p-5 md:p-6 xl:p-7">
+                    <img src="../Assets/Images/about/release1.png" alt="">
+                    <div class="flex flex-col gap-6 xl:gap-7">
+                        <div class="flex flex-col gap-4 md:gap-5 xl:gap-6">
+                            <p class="text-lg md:text-xl xl:text-2xl leading-[150%] text-white">WebBank запускает новую бонусную программу для повышения лояльности и удовлетворенности клиентов</p>
+                            <div class="flex items-center gap-1.5 xl:gap-2">
+                                <p class="text-sm md:text-base xl:text-lg text-[#B3B3B3] rounded-full py-1.5 px-4 bg-[#1A1A1A]">Локация: Russia</p>
+                                <p class="text-sm md:text-base xl:text-lg text-[#B3B3B3] rounded-full py-1.5 px-4 bg-[#1A1A1A]">Дата: 06/11/2024</p>
+                            </div>
+                        </div>
+                        <p class="text-sm md:text-base xl:text-lg font-light text-[#B3B3B3] leading-[150%]">WebBank рад сообщить о введении нашей новой бонусной программы, направленной на поощрение наших постоянных клиентов и повышение качества их банковских услуг. Программа предлагает эксклюзивные льготы, скидки и персонализированные предложения, учитывающие индивидуальные предпочтения клиентов. Этой инициативой WebBank подтверждает свою приверженность обеспечению исключительной ценности и построению прочных отношений с нашими уважаемыми клиентами.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-7 md:gap-10 xl:gap-12 rounded-t-[40px] rounded-b-[16px] bg-[#1C1C1C] border border-[#262626] p-5 md:p-6 xl:p-7">
+                    <img src="../Assets/Images/about/release2.png" alt="">
+                    <div class="flex flex-col gap-6 xl:gap-7">
+                        <div class="flex flex-col gap-4 md:gap-5 xl:gap-6">
+                            <p class="text-lg md:text-xl xl:text-2xl leading-[150%] text-white">WebBank расширил филиальную сеть, открыв новое отделение в Москве</p>
+                            <div class="flex items-center gap-1.5 xl:gap-2">
+                                <p class="text-sm md:text-base xl:text-lg text-[#B3B3B3] rounded-full py-1.5 px-4 bg-[#1A1A1A]">Локация: Russia</p>
+                                <p class="text-sm md:text-base xl:text-lg text-[#B3B3B3] rounded-full py-1.5 px-4 bg-[#1A1A1A]">Дата: 12/11/2024</p>
+                            </div>
+                        </div>
+                        <p class="text-sm md:text-base xl:text-lg font-light text-[#B3B3B3] leading-[150%]">WebBank рад сообщить о торжественном открытии нашего нового филиала в городе. Это расширение является свидетельством нашей неизменной приверженности обслуживанию наших клиентов и предоставлению им удобного доступа к широкому спектру банковских услуг. Новое отделение будет оснащено по последнему слову техники, командой преданных своему делу профессионалов и индивидуальным подходом к банковскому делу, что еще больше укрепит наше присутствие в местном сообществе.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-7 md:gap-10 xl:gap-12 rounded-t-[40px] rounded-b-[16px] bg-[#1C1C1C] border border-[#262626] p-5 md:p-6 xl:p-7">
+                    <img src="../Assets/Images/about/release3.png" alt="">
+                    <div class="flex flex-col gap-6 xl:gap-7">
+                        <div class="flex flex-col gap-4 md:gap-5 xl:gap-6">
+                            <p class="text-lg md:text-xl xl:text-2xl leading-[150%] text-white">WebBank сотрудничает с местной некоммерческой организацией для поддержки инициатив в области финансового образования</p>
+                            <div class="flex items-center gap-1.5 xl:gap-2">
+                                <p class="text-sm md:text-base xl:text-lg text-[#B3B3B3] rounded-full py-1.5 px-4 bg-[#1A1A1A]">Локация: Russia</p>
+                                <p class="text-sm md:text-base xl:text-lg text-[#B3B3B3] rounded-full py-1.5 px-4 bg-[#1A1A1A]">Дата: 24/12/2024</p>
+                            </div>
+                        </div>
+                        <p class="text-sm md:text-base xl:text-lg font-light text-[#B3B3B3] leading-[150%]">WebBank рад представить нашу новую инициативу по устойчивому банковскому обслуживанию, демонстрирующую нашу приверженность принципам экологической ответственности. Эта инициатива включает в себя ряд устойчивых банковских продуктов и услуг, таких как "зеленые" кредиты, экологически чистые варианты инвестирования и безбумажные банковские решения. Внедряя экологичные методы в свою деятельность, мы стремимся внести свой вклад в более экологичное будущее, предоставляя нашим клиентам инновационные банковские решения.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-7 md:gap-10 xl:gap-12 rounded-t-[40px] rounded-b-[16px] bg-[#1C1C1C] border border-[#262626] p-5 md:p-6 xl:p-7">
+                    <img src="../Assets/Images/about/release4.png" alt="">
+                    <div class="flex flex-col gap-6 xl:gap-7">
+                        <div class="flex flex-col gap-4 md:gap-5 xl:gap-6">
+                            <p class="text-lg md:text-xl xl:text-2xl leading-[150%] text-white">WebBank запускает инициативу по устойчивому банковскому обслуживанию, направленную на пропаганду экологической ответственности</p>
+                            <div class="flex items-center gap-1.5 xl:gap-2">
+                                <p class="text-sm md:text-base xl:text-lg text-[#B3B3B3] rounded-full py-1.5 px-4 bg-[#1A1A1A]">Location: Russia</p>
+                                <p class="text-sm md:text-base xl:text-lg text-[#B3B3B3] rounded-full py-1.5 px-4 bg-[#1A1A1A]">Дата: 28/12/2024</p>
+                            </div>
+                        </div>
+                        <p class="text-sm md:text-base xl:text-lg font-light text-[#B3B3B3] leading-[150%]">WebBank рад представить нашу новую инициативу по устойчивому банковскому обслуживанию, демонстрирующую нашу приверженность принципам экологической ответственности. Эта инициатива включает в себя ряд устойчивых банковских продуктов и услуг, таких как "зеленые" кредиты, экологически чистые варианты инвестирования и безбумажные банковские решения. Внедряя экологичные методы в свою деятельность, мы стремимся внести свой вклад в более экологичное будущее, предоставляя нашим клиентам инновационные банковские решения.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="grid-container mt-12">
+        <div class="flex items-center rounded-full justify-between p-4 border border-[#262626] max-lg:flex-col max-lg:gap-6 max-lg:rounded-lg relative">
+            <div class="flex items-center gap-3.5 max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:-translate-y-[calc(50%+14px)]">
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+            </div>
+            <p class="text-[#B3B3B3] text-sm md:text-base xl:text-lg max-lg:mt-4">WebBank All Rights Reserved</p>   
+            <div class="flex items-center gap-3 text-[#B3B3B3] text-sm md:text-base xl:text-lg">
+                <a href="/">Главная</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="career.html">Карьера</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="about.html">О нас</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="security.html">Безопасность</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../Assets/JS/main.js"></script>
+</body>
+</html>
