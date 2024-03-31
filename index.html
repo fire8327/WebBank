@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/output.css">
+    <title>Главная</title>
+</head>
+<body class="flex flex-col min-h-screen bg-[#1A1A1A]">
+    <header class="grid-container py-6 md:py-8 xl:py-12 relative w-full">
+        <div class="flex items-center justify-between py-3 px-8 rounded-full bg-[#1C1C1C] text-white z-[5] border border-[#262626] text-xs md:text-sm xl:text-lg">
+            <a href="/" class="flex items-center gap-1">
+                <img src="Assets/Images/header/logo.png" alt="">
+                <span class="font-semibold text-xl">WebBanK</span>
+            </a>
+            <nav class="flex items-center gap-6 max-lg:absolute max-lg:flex-col max-lg:w-[calc(100%-40px)] max-sm:w-[calc(100%-30px)] max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:z-[5] max-lg:py-4 max-lg:rounded-2xl max-lg:bg-[#1C1C1C] max-lg:border max-lg:border-[#262626] max-lg:transition-all max-lg:duration-500 max-lg:top-0 max-lg:-translate-y-full" id="menuList">
+                <a class="px-4 py-2 border border-[#26262683] rounded-full bg-[url(../../Assets/Images/header/link.png)]" href="/">Home</a>
+                <a href="/career">Careers</a>
+                <a href="/about">About</a>
+                <a href="/security">Security</a>
+                <div class="flex items-center gap-5 lg:hidden">
+                    <a href="/">Sign Up</a>
+                    <a href="/" class="py-3 px-7 rounded-full bg-[#CAFF33] text-black">Login</a>
+                </div>
+            </nav>
+            <div class="flex items-center gap-5 max-lg:hidden">
+                <a href="/">Sign Up</a>
+                <a href="/" class="py-3 px-7 rounded-full bg-[#CAFF33] text-black">Login</a>
+            </div>
+            <button class="py-3 px-4 rounded-full bg-[#CAFF33] lg:hidden" id="menuToggler">
+                <img src="Assets/Images/header/menu.png" alt="">
+            </button>
+        </div>
+        <img src="Assets/Images/header/topBlock.png" alt="" class="col-span-full absolute top-0 left-0">
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Assets/JS/main.js"></script>
+</body>
+</html>
