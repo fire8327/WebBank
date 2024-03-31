@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assets/CSS/output.css">
+    <title>Главная</title>
+</head>
+<body class="flex flex-col min-h-screen bg-[#1A1A1A]">
+    <header class="grid-container py-6 md:py-8 xl:py-12 relative w-full">
+        <div class="flex items-center justify-between py-3 px-8 rounded-full bg-[#1C1C1C] text-white z-[5] border border-[#262626] text-xs md:text-sm xl:text-lg">
+            <a href="/" class="flex items-center gap-1">
+                <img src="../Assets/Images/header/logo.png" alt="">
+                <span class="font-semibold text-xl">WebBanK</span>
+            </a>
+            <nav class="flex items-center gap-6 max-lg:absolute max-lg:flex-col max-lg:w-[calc(100%-40px)] max-sm:w-[calc(100%-30px)] max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:z-[5] max-lg:py-4 max-lg:rounded-2xl max-lg:bg-[#1C1C1C] max-lg:border max-lg:border-[#262626] max-lg:transition-all max-lg:duration-500 max-lg:top-0 max-lg:-translate-y-full" id="menuList">
+                <a href="/">Главная</a>
+                <a class="px-4 py-2 border border-[#26262683] rounded-full bg-[url(../../Assets/Images/header/link.png)]" href="career.html">Карьера</a>
+                <a href="about.html">О нас</a>
+                <a href="security.html">Безопасность</a>
+                <div class="flex items-center gap-5 lg:hidden">
+                    <a href="/">Регистрация</a>
+                    <a href="/" class="py-3 px-7 rounded-full bg-[#CAFF33] text-black">Логин</a>
+                </div>
+            </nav>
+            <div class="flex items-center gap-5 max-lg:hidden">
+                <a href="/">Регистрация</a>
+                <a href="/" class="py-3 px-7 rounded-full bg-[#CAFF33] text-black">Логин</a>
+            </div>
+            <button class="py-3 px-4 rounded-full bg-[#CAFF33] lg:hidden" id="menuToggler">
+                <img src="../Assets/Images/header/menu.png" alt="">
+            </button>
+        </div>
+        <img src="../Assets/Images/header/topBlock.png" alt="" class="col-span-full absolute top-0 left-0">
+    </header>
+
+    <main class="grid-container gap-y-14 md:gap-y-28 xl:gap-y-36 grow">
+        <div class="flex p-3.5 md:p-10 xl:p-12 rounded-xl relative lg:justify-end bg-[#1C1C1C] max-lg:flex-col">
+            <img src="../Assets/Images/hero/abstract.png" alt="" class="absolute top-0 right-0 z-[0]">
+            <img src="../Assets/Images/career/hero.png" alt="" class="rounded-[20px] relative z-[1]">
+            <div class="lg:absolute lg:top-[39px] lg:left-[39px] xl:top-[47px] xl:left-[47px] p-6 md:p-14 xl:p-20 flex flex-col gap-3.5 md:gap-5 xl:gap-6 bg-[#1A1A1A] max-lg:rounded-[20px] max-lg:-mt-6 lg:w-1/2 lg:rounded-l-[20px] lg:rounded-br-[60px] xl:rounded-br-[80px] z-[2]">
+                <p class="text-3xl md:text-5xl xl:text-6xl font-medium leading-[130%] text-white">Добро пожаловать в <span class="text-[#CAFF33]">WebBank!</span></p>
+                <p class="text-sm md:text-base xl:text-lg leading-[150%] text-[#B3B3B3]">Присоединяйтесь к нашей команде и начните успешный путь в банковской отрасли. В WebBank мы стремимся развивать культуру передового опыта и предоставлять возможности для профессионального роста. Уделяя особое внимание инновациям, обслуживанию клиентов и добросовестности, мы стремимся оказывать положительное влияние на жизнь наших клиентов и сообществ. Присоединяйтесь к нам сегодня и станьте частью нашей миссии по формированию будущего банковского дела.</p>   
+            </div>   
+        </div>
+        <div class="flex flex-col gap-10 md:gap-14 xl:gap-20 text-white">
+            <div class="flex flex-col gap-2 md:gap-2.5 xl:gap-3">
+                <p class="text-2xl md:text-4xl xl:text-5xl font-medium leading-[150%]">Наши <span class="text-[#CAFF33]">Преимущества</span></p>
+                <p class="text-xs md:text-sm xl:text-lg font-light text-[#B3B3B3] leading-[150%]">В WebBank мы ценим наших сотрудников и заботимся об их благополучии и успехе. Мы предлагаем широкий спектр льгот, направленных на поддержку их личностного и профессионального роста.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-7">
+                <div class="flex flex-col gap-5 xl:gap-7 rounded-xl p-4 md:p-10 xl:p-12 bg-[#1C1C1C] border border-[#262626] relative overflow-hidden">
+                    <img src="../Assets/Images/security/bg.png" alt="" class="absolute w-full h-full left-0 top-0 z-[0]">
+                    <div class="flex items-center gap-5 relative z-[1]">
+                        <img src="../Assets/Images/career/benefit1.png" alt="">
+                        <p class="text-base md:text-lg xl:text-2xl">Конкурентоспособная компенсация</p>
+                    </div>
+                    <p class="text-sm md:text-base xl:text-lg leading-[150%] font-light text-[#B3B3B3] relative z-[1]">Мы предлагаем конкурентоспособную заработную плату, которая отражает квалификацию и опыт наших сотрудников. WebBank верит в поощрение за выдающиеся результаты и предоставляет возможности для финансового роста.</p>
+                </div>
+                <div class="flex flex-col gap-5 xl:gap-7 rounded-xl p-4 md:p-10 xl:p-12 bg-[#1C1C1C] border border-[#262626] relative overflow-hidden">
+                    <img src="../Assets/Images/security/bg.png" alt="" class="absolute w-full h-full left-0 top-0 z-[0]">
+                    <div class="flex items-center gap-5 relative z-[1]">
+                        <img src="../Assets/Images/career/benefit2.png" alt="">
+                        <p class="text-base md:text-lg xl:text-2xl">Аутентификация здоровья и хорошего самочувствия</p>
+                    </div>
+                    <p class="text-sm md:text-base xl:text-lg leading-[150%] font-light text-[#B3B3B3] relative z-[1]">Мы уделяем первостепенное внимание здоровью и благополучию наших сотрудников, предоставляя комплексные планы медицинского, стоматологического страхования и страхования зрения. Мы также предлагаем оздоровительные программы, абонементы в тренажерный зал и ресурсы для поддержания здорового образа жизни.</p>
+                </div>
+                <div class="flex flex-col gap-5 xl:gap-7 rounded-xl p-4 md:p-10 xl:p-12 bg-[#1C1C1C] border border-[#262626] relative overflow-hidden">
+                    <img src="../Assets/Images/security/bg.png" alt="" class="absolute w-full h-full left-0 top-0 z-[0]">
+                    <div class="flex items-center gap-5 relative z-[1]">
+                        <img src="../Assets/Images/career/benefit3.png" alt="">
+                        <p class="text-base md:text-lg xl:text-2xl">Планирование выхода на пенсию</p>
+                    </div>
+                    <p class="text-sm md:text-base xl:text-lg leading-[150%] font-light text-[#B3B3B3] relative z-[1]">WebBank стремится помогать сотрудникам планировать свое будущее. Мы предлагаем пенсионный накопительный план с выгодным выбором работодателя, который поможет им создать надежную финансовую основу на длительный срок.</p>
+                </div>
+                <div class="flex flex-col gap-5 xl:gap-7 rounded-xl p-4 md:p-10 xl:p-12 bg-[#1C1C1C] border border-[#262626] relative overflow-hidden">
+                    <img src="../Assets/Images/security/bg.png" alt="" class="absolute w-full h-full left-0 top-0 z-[0]">
+                    <div class="flex items-center gap-5 relative z-[1]">
+                        <img src="../Assets/Images/career/benefit4.png" alt="">
+                        <p class="text-base md:text-lg xl:text-2xl">Баланс между работой и личной жизнью</p>
+                    </div>
+                    <p class="text-sm md:text-base xl:text-lg leading-[150%] font-light text-[#B3B3B3] relative z-[1]">Мы понимаем важность поддержания здорового баланса между работой и личной жизнью. WebBank предлагает гибкие условия работы, оплачиваемый отпуск, отпуск по уходу за ребенком и другие программы, которые помогают сотрудникам справляться со своими личными и профессиональными обязанностями.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-10 md:gap-14 xl:gap-20 text-white">
+            <div class="flex flex-col gap-2 md:gap-2.5 xl:gap-3">
+                <p class="text-2xl md:text-4xl xl:text-5xl font-medium leading-[150%] text-[#CAFF33]">Вакансии</p>
+                <p class="text-xs md:text-sm xl:text-lg font-light text-[#B3B3B3] leading-[150%]">Изучите интересные вакансии в WebBank, где мы ценим таланты, инновации и страсть к обслуживанию клиентов. Присоединяйтесь к нашей команде и участвуйте в формировании светлого будущего в банковской отрасли</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 xl:gap-7">
+                <div class="flex flex-col gap-7 md:gap-10 xl:gap-12 p-4 md:p-10 xl:p-12 rounded-xl border border-[#262626] bg-[#1C1C1C]">
+                    <div class="flex flex-col gap-2.5">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Менеджер по работе с клиентами</p>  
+                        <div class="flex md:items-center max-md:flex-col gap-1.5">
+                            <p class="px-4 py-1.5 rounded-full bg-[#1A1A1A] font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Локация: Russia</p>
+                            <p class="px-4 py-1.5 rounded-full bg-[#1A1A1A] font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Отдел: Розничные банковские услуги</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2 md:gap-4 xl:gap-6">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Об этой работе</p> 
+                        <p class="font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Как менеджер по работе с клиентами WebBank, вы будете отвечать за развитие и поддержание отношений с нашими уважаемыми клиентами. Вы будете заранее определять их финансовые потребности и предлагать индивидуальные решения, которые помогут им достичь своих целей. Мы ищем людей с отличными коммуникативными навыками, сильным опытом продаж и стремлением обеспечить исключительное обслуживание клиентов.</p>
+                    </div>  
+                    <div class="flex flex-col gap-2 md:gap-4 xl:gap-6">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Требования и квалификация</p> 
+                        <div class="flex flex-col gap-3.5 font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Степень бакалавра в области финансов, экономики или смежной области</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Степень бакалавра в области бизнеса, финансов или смежной области</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Минимум 2 года опыта работы в области управления рисками или аналогичной должности</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Минимум 3 года опыта работы в сфере продаж или управления взаимоотношениями в банковской отрасли</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Владение инструментами и методами анализа рисков</p>   
+                            </div>
+                        </div>  
+                    </div>  
+                </div>
+                <div class="flex flex-col gap-7 md:gap-10 xl:gap-12 p-4 md:p-10 xl:p-12 rounded-xl border border-[#262626] bg-[#1C1C1C]">
+                    <div class="flex flex-col gap-2.5">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Аналитик рисков</p>  
+                        <div class="flex md:items-center max-md:flex-col gap-1.5">
+                            <p class="px-4 py-1.5 rounded-full bg-[#1A1A1A] font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Локация: Russia</p>
+                            <p class="px-4 py-1.5 rounded-full bg-[#1A1A1A] font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Отдел: Управление рисками</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2 md:gap-4 xl:gap-6">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Об этой работе</p> 
+                        <p class="font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Как аналитик рисков в WebBank, вы будете играть важную роль в выявлении и оценке потенциальных рисков для нашей организации. Вы будете анализировать данные, проводить оценку рисков и разрабатывать стратегии по их снижению. Мы ищем людей, ориентированных на детали, с сильными аналитическими способностями и глубоким пониманием принципов управления рисками.</p>
+                    </div>  
+                    <div class="flex flex-col gap-2 md:gap-4 xl:gap-6">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Требования и квалификация</p> 
+                        <div class="flex flex-col gap-3.5 font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Подтвержденный опыт достижения и перевыполнения целевых показателей продаж</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Сильные аналитические способности и навыки решения проблем</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Отличные навыки межличностного общения и ведения переговоров</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Знание нормативных требований и лучших отраслевых практик</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Глубокое знание банковских продуктов и услуг</p>   
+                            </div>
+                        </div>  
+                    </div>  
+                </div>
+                <div class="flex flex-col gap-7 md:gap-10 xl:gap-12 p-4 md:p-10 xl:p-12 rounded-xl border border-[#262626] bg-[#1C1C1C]">
+                    <div class="flex flex-col gap-2.5">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Специалист по ИТ-безопасности</p>  
+                        <div class="flex md:items-center max-md:flex-col gap-1.5">
+                            <p class="px-4 py-1.5 rounded-full bg-[#1A1A1A] font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Локация: Russia</p>
+                            <p class="px-4 py-1.5 rounded-full bg-[#1A1A1A] font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Факультет: Информационные технологии</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2 md:gap-4 xl:gap-6">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Об этой работе</p> 
+                        <p class="font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">Как специалист по ИТ-безопасности в WebBank, вы будете отвечать за обеспечение безопасности и целостности наших информационных систем. Вы будете разрабатывать и внедрять протоколы безопасности, проводить оценку уязвимостей и реагировать на инциденты безопасности. Мы ищем специалистов с хорошей технической подготовкой, знанием передовых методов обеспечения кибербезопасности и стремлением сохранять конфиденциальность данных клиентов.</p>
+                    </div>  
+                    <div class="flex flex-col gap-2 md:gap-4 xl:gap-6">
+                        <p class="text-xl md:text-2xl xl:text-3xl font-semibold">Требования и квалификация</p> 
+                        <div class="flex flex-col gap-3.5 font-light text-sm md:text-base xl:text-lg text-[#B3B3B3]">
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Степень бакалавра в области компьютерных наук, информационной безопасности или смежных областях</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Минимум 5 лет опыта работы в сфере ИТ-безопасности или аналогичной должности</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Подробно knowledge of network security protocols and technologies</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Знание нормативно-правовой базы, такой как PCI DSS и GDP</p>   
+                            </div>
+                            <div class="flex items-center gap-1.5">
+                                <img src="../Assets/Images/career/icon.png" alt="">
+                                <p>Предпочтительны профессиональные сертификаты, такие как CISSP или CISM</p>   
+                            </div>
+                        </div>  
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="grid-container mt-12">
+        <div class="flex items-center rounded-full justify-between p-4 border border-[#262626] max-lg:flex-col max-lg:gap-6 max-lg:rounded-lg relative">
+            <div class="flex items-center gap-3.5 max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:-translate-y-[calc(50%+14px)]">
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+            </div>
+            <p class="text-[#B3B3B3] text-sm md:text-base xl:text-lg max-lg:mt-4">WebBank All Rights Reserved</p>   
+            <div class="flex items-center gap-3 text-[#B3B3B3] text-sm md:text-base xl:text-lg">
+                <a href="/">Главная</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="career.html">Карьера</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="about.html">О нас</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="security.html">Безопасность</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../Assets/JS/main.js"></script>
+</body>
+</html>
