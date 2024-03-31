@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assets/CSS/output.css">
+    <title>Безопасность</title>
+</head>
+<body class="flex flex-col min-h-screen bg-[#1A1A1A]">
+    <header class="grid-container py-6 md:py-8 xl:py-12 relative w-full">
+        <div class="flex items-center justify-between py-3 px-8 rounded-full bg-[#1C1C1C] text-white z-[5] border border-[#262626] text-xs md:text-sm xl:text-lg">
+            <a href="/" class="flex items-center gap-1">
+                <img src="../Assets/Images/header/logo.png" alt="">
+                <span class="font-semibold text-xl">WebBanK</span>
+            </a>
+            <nav class="flex items-center gap-6 max-lg:absolute max-lg:flex-col max-lg:w-[calc(100%-40px)] max-sm:w-[calc(100%-30px)] max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:z-[5] max-lg:py-4 max-lg:rounded-2xl max-lg:bg-[#1C1C1C] max-lg:border max-lg:border-[#262626] max-lg:transition-all max-lg:duration-500 max-lg:top-0 max-lg:-translate-y-full" id="menuList">
+                <a href="/">Главная</a>
+                <a href="career.html">Карьера</a>
+                <a href="about.html">О нас</a>
+                <a class="px-4 py-2 border border-[#26262683] rounded-full bg-[url(../../Assets/Images/header/link.png)] bg-cover" href="security.html">Безопасность</a>
+                <div class="flex items-center gap-5 lg:hidden">
+                    <a href="/">Регистрация</a>
+                    <a href="/" class="py-3 px-7 rounded-full bg-[#CAFF33] text-black">Логин</a>
+                </div>
+            </nav>
+            <div class="flex items-center gap-5 max-lg:hidden">
+                <a href="/">Регистрация</a>
+                <a href="/" class="py-3 px-7 rounded-full bg-[#CAFF33] text-black">Логин</a>
+            </div>
+            <button class="py-3 px-4 rounded-full bg-[#CAFF33] lg:hidden" id="menuToggler">
+                <img src="../Assets/Images/header/menu.png" alt="">
+            </button>
+        </div>
+        <img src="../Assets/Images/header/topBlock.png" alt="" class="col-span-full absolute top-0 left-0">
+    </header>
+
+    <main class="grid-container gap-y-14 md:gap-y-28 xl:gap-y-36 grow">
+        <div class="flex p-3.5 md:p-10 xl:p-12 rounded-xl relative lg:justify-end bg-[#1C1C1C] max-lg:flex-col">
+            <img src="../Assets/Images/hero/abstract.png" alt="" class="absolute top-0 right-0 z-[0]">
+            <img src="../Assets/Images/security/hero.png" alt="" class="rounded-[20px] relative z-[1]">
+            <div class="lg:absolute lg:top-[39px] lg:left-[39px] xl:top-[47px] xl:left-[47px] p-6 md:p-14 xl:p-20 flex flex-col gap-3.5 md:gap-5 xl:gap-6 bg-[#1A1A1A] max-lg:rounded-[20px] max-lg:-mt-6 lg:w-1/2 lg:rounded-l-[20px] lg:rounded-br-[60px] xl:rounded-br-[80px] z-[2]">
+                <p class="text-3xl md:text-5xl xl:text-6xl font-medium leading-[130%] text-white">Ваша безопасность - <span class="text-[#CAFF33]">наш главный приоритет</span></p>
+                <p class="text-sm md:text-base xl:text-lg leading-[150%] text-[#B3B3B3]">В WebBank мы понимаем важность обеспечения безопасности вашей финансовой информации. Мы применяем надежные меры безопасности и передовые технологии для защиты ваших личных и финансовых данных. Будьте уверены, что, когда вы работаете с нами, ваша безопасность является нашим главным приоритетом.</p>   
+            </div>   
+        </div>
+        <div class="flex flex-col gap-10 md:gap-14 xl:gap-20 text-white">
+            <div class="flex flex-col gap-2 md:gap-2.5 xl:gap-3">
+                <p class="text-2xl md:text-4xl xl:text-5xl font-medium leading-[150%]">Как мы <span class="text-[#CAFF33]">защищаем вас</span></p>
+                <p class="text-xs md:text-sm xl:text-lg font-light text-[#B3B3B3] leading-[150%]">В WebBank мы уделяем первостепенное внимание безопасности и конфиденциальности вашей финансовой информации. Наша современная технология шифрования и строгие меры защиты данных гарантируют, что ваши активы и транзакции будут надежно защищены в любое время</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-7">
+                <div class="flex flex-col gap-5 xl:gap-7 rounded-xl p-4 md:p-10 xl:p-12 bg-[#1C1C1C] border border-[#262626] relative overflow-hidden">
+                    <img src="../Assets/Images/security/bg.png" alt="" class="absolute w-full h-full left-0 top-0 z-[0]">
+                    <div class="flex items-center gap-5 relative z-[1]">
+                        <img src="../Assets/Images/security/protect1.png" alt="">
+                        <p class="text-base md:text-lg xl:text-2xl">Безопасная платформа онлайн-банкинга</p>
+                    </div>
+                    <p class="text-sm md:text-base xl:text-lg leading-[150%] font-light text-[#B3B3B3] relative z-[1]">Наша платформа онлайн-банкинга оснащена несколькими уровнями защиты для защиты вашей информации. Мы используем стандартный протокол шифрования, чтобы гарантировать, что ваши данные остаются конфиденциальными и защищены во время передачи.</p>
+                </div>
+                <div class="flex flex-col gap-5 xl:gap-7 rounded-xl p-4 md:p-10 xl:p-12 bg-[#1C1C1C] border border-[#262626] relative overflow-hidden">
+                    <img src="../Assets/Images/security/bg.png" alt="" class="absolute w-full h-full left-0 top-0 z-[0]">
+                    <div class="flex items-center gap-5 relative z-[1]">
+                        <img src="../Assets/Images/security/protect2.png" alt="">
+                        <p class="text-base md:text-lg xl:text-2xl">Многофакторная аутентификация</p>
+                    </div>
+                    <p class="text-sm md:text-base xl:text-lg leading-[150%] font-light text-[#B3B3B3] relative z-[1]">Для повышения безопасности вашего онлайн-банкинга мы используем многофакторную аутентификацию. Этот дополнительный уровень безопасности требует, чтобы вы предоставили несколько идентификационных данных, таких как пароль и одноразовый проверочный код, для доступа к своей учетной записи.</p>
+                </div>
+                <div class="flex flex-col gap-5 xl:gap-7 rounded-xl p-4 md:p-10 xl:p-12 bg-[#1C1C1C] border border-[#262626] relative overflow-hidden">
+                    <img src="../Assets/Images/security/bg.png" alt="" class="absolute w-full h-full left-0 top-0 z-[0]">
+                    <div class="flex items-center gap-5 relative z-[1]">
+                        <img src="../Assets/Images/security/protect3.png" alt="">
+                        <p class="text-base md:text-lg xl:text-2xl">Мониторинг мошенничества</p>
+                    </div>
+                    <p class="text-sm md:text-base xl:text-lg leading-[150%] font-light text-[#B3B3B3] relative z-[1]">У нас есть современные системы обнаружения мошенничества, позволяющие отслеживать ваши учетные записи на предмет любых подозрительных действий. Наша специальная команда работает круглосуточно, чтобы выявлять и предотвращать несанкционированные транзакции, обеспечивая вам спокойствие.</p>
+                </div>
+                <div class="flex flex-col gap-5 xl:gap-7 rounded-xl p-4 md:p-10 xl:p-12 bg-[#1C1C1C] border border-[#262626] relative overflow-hidden">
+                    <img src="../Assets/Images/security/bg.png" alt="" class="absolute w-full h-full left-0 top-0 z-[0]">
+                    <div class="flex items-center gap-5 relative z-[1]">
+                        <img src="../Assets/Images/security/protect4.png" alt="">
+                        <p class="text-base md:text-lg xl:text-2xl">Безопасный мобильный банкинг</p>
+                    </div>
+                    <p class="text-sm md:text-base xl:text-lg leading-[150%] font-light text-[#B3B3B3] relative z-[1]">Наше мобильное банковское приложение разработано с таким же уровнем безопасности, как и наша платформа онлайн-банкинга. Вы можете уверенно получать доступ к своим счетам, совершать транзакции и управлять своими финансами на ходу, зная, что ваша информация защищена.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="grid-container mt-12">
+        <div class="flex items-center rounded-full justify-between p-4 border border-[#262626] max-lg:flex-col max-lg:gap-6 max-lg:rounded-lg relative">
+            <div class="flex items-center gap-3.5 max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:-translate-y-[calc(50%+14px)]">
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+                <a href="/" class="rounded-full w-8 h-8 bg-[#CAFF33]"></a>
+            </div>
+            <p class="text-[#B3B3B3] text-sm md:text-base xl:text-lg max-lg:mt-4">WebBank All Rights Reserved</p>   
+            <div class="flex items-center gap-3 text-[#B3B3B3] text-sm md:text-base xl:text-lg">
+                <a href="/">Главная</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="career.html">Карьера</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="about.html">О нас</a>
+                <div class="w-px h-5 bg-[#B3B3B3]"></div>
+                <a href="security.html">Безопасность</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../Assets/JS/main.js"></script>
+</body>
+</html>
